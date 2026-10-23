@@ -1,0 +1,79 @@
+{
+  "trained_at": "2026-10-24T01:16:06",
+  "n_rows": 404800,
+  "classes": [
+    "Eligible",
+    "High_Risk",
+    "Not_Eligible"
+  ],
+  "best_classifier": "XGBoost",
+  "best_regressor": "XGBoost",
+  "best_clf_metrics": {
+    "val_accuracy": 0.9837615283267457,
+    "val_precision": 0.9834930764062944,
+    "val_recall": 0.9837615283267457,
+    "val_f1": 0.9836062385993306,
+    "val_roc_auc": 0.9991957603312215,
+    "test_accuracy": 0.9829545454545454,
+    "test_precision": 0.9826774454716265,
+    "test_recall": 0.9829545454545454,
+    "test_f1": 0.9827978570272923,
+    "test_roc_auc": 0.9991197695103693,
+    "fit_seconds": 9.28887677192688
+  },
+  "best_reg_metrics": {
+    "val_rmse": 655.417623453172,
+    "val_mae": 228.47333204001558,
+    "val_r2": 0.992899481243124,
+    "val_mape": 7.240409945599555,
+    "test_rmse": 683.2527985453297,
+    "test_mae": 230.81148843941097,
+    "test_r2": 0.9922145053135467,
+    "test_mape": 7.081466489686881,
+    "fit_seconds": 3.9448821544647217
+  },
+  "categories": {
+    "gender": [
+      "Female",
+      "Male"
+    ],
+    "marital_status": [
+      "Married",
+      "Single"
+    ],
+    "education": [
+      "Graduate",
+      "High School",
+      "Post Graduate",
+      "Professional"
+    ],
+    "employment_type": [
+      "Government",
+      "Private",
+      "Self-employed"
+    ],
+    "company_type": [
+      "Large Indian",
+      "MNC",
+      "Mid-size",
+      "Small",
+      "Startup"
+    ],
+    "house_type": [
+      "Family",
+      "Own",
+      "Rented"
+    ],
+    "existing_loans": [
+      "No",
+      "Yes"
+    ],
+    "emi_scenario": [
+      "E-commerce Shopping EMI",
+      "Education EMI",
+      "Home Appliances EMI",
+      "Personal Loan EMI",
+      "Vehicle EMI"
+    ]
+  }
+}

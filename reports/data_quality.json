@@ -1,0 +1,33 @@
+{
+  "rows_raw": 404800,
+  "missing_before": {
+    "age": 3,
+    "monthly_salary": 1993,
+    "monthly_rent": 2426,
+    "credit_score": 2420,
+    "bank_balance": 4392,
+    "emergency_fund": 2351,
+    "education": 2404
+  },
+  "duplicates_removed": 0,
+  "rows_dropped_missing_target": 0,
+  "values_clipped": {
+    "credit_score": 4776
+  },
+  "rows_clean": 404800,
+  "class_distribution": {
+    "Not_Eligible": 312868,
+    "Eligible": 74444,
+    "High_Risk": 17488
+  },
+  "target_reg_summary": {
+    "count": 404800.0,
+    "mean": 6763.602156101779,
+    "std": 7741.263317050573,
+    "min": 500.0,
+    "25%": 500.0,
+    "50%": 4211.2,
+    "75%": 9792.0,
+    "max": 91040.4
+  }
+}

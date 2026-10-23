@@ -1,0 +1,9 @@
+venv/
+.venv/
+__pycache__/
+mlflow.db
+mlartifacts/
+mlruns/
+data/EMI_dataset.csv
+.DS_Store
+data/emi_clean.csv
